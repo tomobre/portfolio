@@ -4,7 +4,7 @@ import { useState } from "react";
 import Link from "next/link";
 import NavLink from "./navLink";
 import Image from "next/image";
-//import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -14,6 +14,16 @@ export default function Navbar() {
     { url: "/portfolio", title: "Portfolio" },
     { url: "/contact", title: "Contact" },
   ];
+
+  const topVariants = {
+    closed: {
+      rotate: 0,
+    },
+    opened: {
+      rotate: 45,
+      backgroundColor: "rgb(255,255,255)",
+    },
+  };
 
   const centerVariants = {
     closed: {
@@ -31,6 +41,30 @@ export default function Navbar() {
     opened: {
       rotate: -45,
       backgroundColor: "rgb(255,255,255)",
+    },
+  };
+
+  const listVariants = {
+    closed: {
+      x: "100vw",
+    },
+    opened: {
+      x: 0,
+      transition: {
+        when: "beforeChildren",
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
+  const listItemVariants = {
+    closed: {
+      x: -10,
+      opacity: 0,
+    },
+    opened: {
+      x: 0,
+      opacity: 1,
     },
   };
 
@@ -60,16 +94,7 @@ export default function Navbar() {
           <Image src="/github.png" alt="" width={24} height={24} />
         </Link>
         <Link href="/">
-          <Image src="/dribbble.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
           <Image src="/instagram.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
-          <Image src="/facebook.png" alt="" width={24} height={24} />
-        </Link>
-        <Link href="/">
-          <Image src="/pinterest.png" alt="" width={24} height={24} />
         </Link>
         <Link href="/">
           <Image src="/linkedin.png" alt="" width={24} height={24} />
@@ -82,7 +107,7 @@ export default function Navbar() {
           className="w-10 h-8 flex flex-col justify-between z-50 relative"
           onClick={() => setOpen((prev) => !prev)}
         >
-          {/*        <motion.div
+          <motion.div
             variants={topVariants}
             animate={open ? "opened" : "closed"}
             className="w-10 h-1 bg-black rounded origin-left"
@@ -96,13 +121,12 @@ export default function Navbar() {
             variants={bottomVariants}
             animate={open ? "opened" : "closed"}
             className="w-10 h-1 bg-black rounded origin-left"
-          ></motion.div> */}
+          ></motion.div>
         </button>
         {/* MENU LIST */}
         {open && (
           <div>
-            open
-            {/*         <motion.div
+            <motion.div
               variants={listVariants}
               initial="closed"
               animate="opened"
@@ -118,7 +142,6 @@ export default function Navbar() {
                 </motion.div>
               ))}
             </motion.div>
-             */}
           </div>
         )}
       </div>
