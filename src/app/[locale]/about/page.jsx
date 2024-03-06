@@ -1,10 +1,13 @@
 "use client";
 import Brain from "@/components/brain";
 import { motion, useInView, useScroll } from "framer-motion";
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import { useRef } from "react";
 
 const AboutPage = () => {
+  /*   const t = useTranslations("Index");
+  console.log(t); */
   const containerRef = useRef();
 
   const { scrollYProgress } = useScroll({ container: containerRef });

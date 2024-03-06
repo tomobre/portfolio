@@ -9,9 +9,9 @@ export const metadata = {
   description: "Tomas Obregon portfolio",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout({ params: { locale }, children }) {
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body className={inter.className}>
         <TransitionProvider>{children}</TransitionProvider>
       </body>
