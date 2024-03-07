@@ -5,8 +5,9 @@ import Navbar from "./navbar";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 
-const TransitionProvider = ({ children }) => {
+const TransitionProvider = ({ children, locale }) => {
   const pathName = usePathname();
+  console.log(pathName.substring(1));
 
   return (
     <AnimatePresence mode="wait">
@@ -35,7 +36,7 @@ const TransitionProvider = ({ children }) => {
           animate={{ height: "0vh", transition: { delay: 0.5 } }}
         />
         <div className="h-24">
-          <Navbar />
+          <Navbar locale={locale} />
         </div>
         <div className="h-[calc(100vh-6rem)]">{children}</div>
       </div>

@@ -13,7 +13,7 @@ export default function RootLayout({ params: { locale }, children }) {
   return (
     <html lang={locale}>
       <body className={inter.className}>
-        <TransitionProvider>{children}</TransitionProvider>
+        <TransitionProvider locale={locale}>{children}</TransitionProvider>
       </body>
     </html>
   );

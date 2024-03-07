@@ -5,14 +5,18 @@ import Link from "next/link";
 import NavLink from "./navLink";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import LocalSwitcher from "./LocalSwitcher";
+import { useLocale } from "next-intl";
+import { usePathname } from "next/navigation";
 
-export default function Navbar() {
+export default function Navbar({ locale }) {
   const [open, setOpen] = useState(false);
+
   const links = [
-    { url: "/", title: "Home" },
-    { url: "/about", title: "About" },
-    { url: "/portfolio", title: "Portfolio" },
-    { url: "/contact", title: "Contact" },
+    { url: `/${locale}/`, title: "Home" },
+    { url: `/${locale}/about/`, title: "About" },
+    { url: `/${locale}/portfolio/`, title: "Portfolio" },
+    { url: `/${locale}/contact/`, title: "Contact" },
   ];
 
   const topVariants = {
@@ -100,6 +104,7 @@ export default function Navbar() {
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
       </div>
+      <LocalSwitcher />
       {/* RESPONSIVE MENU */}
       <div className="md:hidden">
         {/* MENU BUTTON */}
