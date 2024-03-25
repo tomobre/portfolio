@@ -6,8 +6,6 @@ import NavLink from "./navLink";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import LocalSwitcher from "./LocalSwitcher";
-import { useLocale } from "next-intl";
-import { usePathname } from "next/navigation";
 
 export default function Navbar({ locale }) {
   const [open, setOpen] = useState(false);
@@ -73,7 +71,7 @@ export default function Navbar({ locale }) {
   };
 
   return (
-    <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl">
+    <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-xl text-white">
       {/* LINKS */}
       <div className="hidden md:flex gap-4 w-1/3">
         {links.map((link) => (

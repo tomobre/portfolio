@@ -19,7 +19,7 @@ export default function LocalSwitcher() {
 
   return (
     <div>
-      <label className="border-2 rounded">
+      <label className="border-2 rounded text-black">
         <p className="sr-only"> change language</p>
         <select
           defaultValue={localeActive}

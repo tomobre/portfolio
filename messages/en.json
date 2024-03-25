@@ -1,5 +1,60 @@
 {
+  "Layout": {
+    "navBar": {
+      "home": "Home",
+      "about": "About",
+      "portfolio": "Portfolio",
+      "contact": "Contact",
+      "locales": {
+        "spanish": "spanish",
+        "english": "english"
+      }
+    }
+  },
   "Index": {
-    "title": "Hello world!"
+    "title": "Crafting Digital Experiences, Designing Tomorrow.",
+    "description": "creativity converge. With a keen eye for aesthetics and a mastery of code, my portfolio showcases a diverse collection of projects that reflect my commitment to excellence.",
+    "contactButton": "Contact me",
+    "portfolioButton": "View my work"
+  },
+  "About": {
+    "biography": {
+      "title": "Crafting Digital Experiences, Designing Tomorrow.",
+      "description": "creativity converge. With a keen eye for aesthetics and a mastery of code, my portfolio showcases a diverse collection of projects that reflect my commitment to excellence.",
+      "footer": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+    },
+    "skills": { "title": "SKILLS" },
+    "experience": {
+      "title": "EXPERIENCE",
+      "experience": [
+        { "title": "title", "description": "descrip", "company": "company" },
+        { "title": "title", "description": "descrip", "company": "company" },
+        { "title": "title", "description": "descrip", "company": "company" },
+        { "title": "title", "description": "descrip", "company": "company" }
+      ]
+    }
+  },
+  "Portfolio": {
+    "title": "my works",
+    "portfolio": [
+      { "title": "title", "description": "decrip" },
+      { "title": "title", "description": "decrip" },
+      { "title": "title", "description": "decrip" },
+      { "title": "title", "description": "decrip" },
+      { "title": "title", "description": "decrip" }
+    ],
+    "portfolioButton": "view demo",
+    "contact": { "title": "title", "role": "frontend dev", "button": "hire me" }
+  },
+  "Contact": {
+    "form": {
+      "messageLabel": "dear tomas",
+      "emailLabel": "my email address",
+      "bye": "regards",
+      "button": "Send",
+      "success": "Your message was sent succesfully",
+      "error": "something went wrong"
+    },
+    "animation": "say hello"
   }
 }

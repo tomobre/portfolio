@@ -1,5 +1,65 @@
 {
+  "Layout": {
+    "navBar": {
+      "home": "Home",
+      "about": "Sobre mi",
+      "portfolio": "Portfolio",
+      "contact": "Contacto",
+      "locales": {
+        "spanish": "espanol",
+        "english": "ingles"
+      }
+    }
+  },
   "Index": {
-    "title": "Holaaa mundod!"
+    "title": "Generando experiencias digitales",
+    "description": "con un ojo para la programacion y para la comunicacion y las soft skills.",
+    "contactButton": "contacto",
+    "portfolioButton": "mira mis trabajos"
+  },
+  "About": {
+    "biography": {
+      "title": "biografia",
+      "description": "fui psicologo y me otorgo las soft skills necesarias para trbajaar correctamente",
+      "footer": "firmita bla bla."
+    },
+    "skills": { "title": "TECNOLOGIAS" },
+    "experience": {
+      "title": "EXPERIENCIA",
+      "experience": [
+        { "title": "title", "description": "descrip", "company": "company" },
+        { "title": "title", "description": "descrip", "company": "company" },
+        { "title": "title", "description": "descrip", "company": "company" },
+        { "title": "title", "description": "descrip", "company": "company" }
+      ]
+    }
+  },
+  "Portfolio": {
+    "title": "MIS TRABAJOS",
+    "portfolio": [
+      { "title": "title", "description": "decrip" },
+      { "title": "title", "description": "decrip" },
+      { "title": "title", "description": "decrip" },
+      { "title": "title", "description": "decrip" },
+      { "title": "title", "description": "decrip" }
+    ],
+    "portfolioButton": "VER",
+    "contact": {
+      "title": "CONTRATAME",
+      "role": "frontend dev",
+      "button": "hire me"
+    }
+  },
+  "Contact": {
+    "form": {
+      "messageLabel": "Hola Tomas",
+      "emailLabel": "Mi email es:",
+      "bye": "Saludos",
+      "button": "Mandar",
+      "success": "Tu mensaje ha sido enviado exitosamente",
+      "error": "Ha ocurrido un error"
+    },
+
+    "animation": "Contame mas"
   }
 }

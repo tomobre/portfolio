@@ -1,8 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import TransitionProvider from "@/components/TransitionProvider";
-
-const inter = Inter({ subsets: ["latin"] });
+import { cascadiaCode } from "../utils/fonts";
 
 export const metadata = {
   title: "Tomas Obregon",
@@ -12,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ params: { locale }, children }) {
   return (
     <html lang={locale}>
-      <body className={inter.className}>
+      <body className={`${cascadiaCode.className}  `}>
         <TransitionProvider locale={locale}>{children}</TransitionProvider>
       </body>
     </html>
