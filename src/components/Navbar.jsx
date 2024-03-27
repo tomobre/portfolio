@@ -7,14 +7,14 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import LocalSwitcher from "./LocalSwitcher";
 
-export default function Navbar({ locale }) {
+export default function Navbar({ locale, translations}) {
   const [open, setOpen] = useState(false);
 
   const links = [
-    { url: `/${locale}/`, title: "Home" },
-    { url: `/${locale}/about/`, title: "About" },
-    { url: `/${locale}/portfolio/`, title: "Portfolio" },
-    { url: `/${locale}/contact/`, title: "Contact" },
+    { url: `/${locale}/`, title: translations.home },
+    { url: `/${locale}/about/`, title: translations.about },
+    { url: `/${locale}/portfolio/`, title: translations.portfolio },
+    { url: `/${locale}/contact/`, title: translations.contact },
   ];
 
   const topVariants = {
@@ -102,7 +102,7 @@ export default function Navbar({ locale }) {
           <Image src="/linkedin.png" alt="" width={24} height={24} />
         </Link>
       </div>
-      <LocalSwitcher />
+      <LocalSwitcher translations={translations.locales} />
       {/* RESPONSIVE MENU */}
       <div className="md:hidden">
         {/* MENU BUTTON */}

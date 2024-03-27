@@ -3,7 +3,7 @@ import { useTransition } from "react";
 import { useRouter } from "next/navigation";
 import { useLocale } from "next-intl";
 
-export default function LocalSwitcher() {
+export default function LocalSwitcher({translations}) {
   const [isPending, startTransition] = useTransition();
 
   const router = useRouter();
@@ -28,8 +28,8 @@ export default function LocalSwitcher() {
           onChange={onSelectChange}
           disabled={isPending}
         >
-          <option value="es">spanish</option>
-          <option value="en">english</option>
+          <option value="es">{translations.spanish}</option>
+          <option value="en">{translations.english}</option>
         </select>
       </label>
     </div>
