@@ -27,10 +27,30 @@
     "experience": {
       "title": "EXPERIENCIA",
       "experience": [
-        { "title": "title", "description": "descrip", "company": "company" },
-        { "title": "title", "description": "descrip", "company": "company" },
-        { "title": "title", "description": "descrip", "company": "company" },
-        { "title": "title", "description": "descrip", "company": "company" }
+        {
+          "title": "title",
+          "description": "descrip",
+          "company": "company",
+          "years": "2024-2024"
+        },
+        {
+          "title": "title",
+          "description": "descrip",
+          "company": "company",
+          "years": "2024-2024"
+        },
+        {
+          "title": "title",
+          "description": "descrip",
+          "company": "company",
+          "years": "2024-2024"
+        },
+        {
+          "title": "title",
+          "description": "descrip",
+          "company": "company",
+          "years": "2024-2024"
+        }
       ]
     }
   },
@@ -55,7 +75,7 @@
       "messageLabel": "Hola Tomas",
       "emailLabel": "Mi email es:",
       "bye": "Saludos",
-      "button": "Mandar",
+      "button": "Enviar",
       "success": "Tu mensaje ha sido enviado exitosamente",
       "error": "Ha ocurrido un error"
     },

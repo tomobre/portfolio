@@ -3,7 +3,7 @@ import React from "react";
 import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
-export default function Skills() {
+export default function Skills({title}) {
   const skillRef = useRef();
   // const isSkillRefInView = useInView(skillRef, {once:true});
   const isSkillRefInView = useInView(skillRef, { margin: "-100px" });
@@ -16,7 +16,7 @@ export default function Skills() {
         transition={{ delay: 0.2 }}
         className="font-bold text-2xl"
       >
-        SKILLS
+        {title}
       </motion.h1>
       {/* SKILL LIST */}
       <motion.div

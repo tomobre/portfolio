@@ -7,6 +7,10 @@ import AboutContainer from "@/components/AboutContainer";
 const AboutPage = () => {
   const t = useTranslations("About");
 
+  const experiences = [0,1,2,3].map((num)=> {
+    return     { "title":  t(`experience.experience.${num}.title`), "description":  t(`experience.experience.${num}.description`), "company":  t(`experience.experience.${num}.company`), "years": t(`experience.experience.${num}.years`)  }
+  })
+
   return (
     <AboutContainer>
       {/* CONTAINER */}
@@ -20,9 +24,9 @@ const AboutPage = () => {
           quote={t("biography.footer")}
         />
         {/* SKILLS  */}
-        <Skills></Skills>
+        <Skills  title={t("skills.title")} ></Skills>
         {/* EXPERIENCE  */}
-        <Experience></Experience>
+        <Experience title={t("experience.title")} experiences={experiences}></Experience>
       </div>
       {/* SVG CONTAINER */}
     </AboutContainer>

@@ -27,10 +27,10 @@
     "experience": {
       "title": "EXPERIENCE",
       "experience": [
-        { "title": "title", "description": "descrip", "company": "company" },
-        { "title": "title", "description": "descrip", "company": "company" },
-        { "title": "title", "description": "descrip", "company": "company" },
-        { "title": "title", "description": "descrip", "company": "company" }
+        { "title": "title", "description": "descrip", "company": "company", "years":"2024-2024"  },
+        { "title": "title", "description": "descrip", "company": "company", "years":"2024-2024"},
+        { "title": "title", "description": "descrip", "company": "company" , "years":"2024-2024"},
+        { "title": "title", "description": "descrip", "company": "company", "years":"2024-2024" }
       ]
     }
   },
