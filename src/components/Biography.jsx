@@ -7,6 +7,15 @@ export default function Biography({ title, description, quote }) {
   return (
     <div className="flex flex-col gap-12 justify-center">
       {/* BIOGRAPHY IMAGE */}
+      <p>
+        <span className="text-VSPink"> import</span>{" "}
+        <span className="text-VSYellow">{"{"}</span>
+        <span className="text-VSLightBlue">Biography, Skills, Experience</span>
+        <span className="text-VSYellow">{"}"}</span>{" "}
+        <span className="text-VSPink">from</span>
+        <span className="text-VSBrown"> "./Biography";</span>
+      </p>
+      <p>Biography.show()</p>
       <Image
         src="/me.png"
         alt=""

@@ -2,11 +2,11 @@
   "Layout": {
     "navBar": {
       "home": "Inicio",
-      "about": "Sobre mi",
+      "about": "Bio",
       "portfolio": "Portfolio",
       "contact": "Contacto",
       "locales": {
-        "spanish": "espanol",
+        "spanish": "español",
         "english": "ingles"
       }
     }

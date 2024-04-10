@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import ScrollPortfolio from './ScrollPortfolio'
 import HireBtnPortfolio from './HireBtnPortfolio';
 
-export default function PortfolioContainer({scrollBtn, scrollTitle, projects, hireTitle, hireBtn, hireSubtitle}) {
+export default function PortfolioContainer({scrollBtn, scrollTitle, projects, hireTitle, hireBtn, hireSubtitle, locale}) {
   return (
     <motion.div
       className="h-full"
@@ -18,6 +18,7 @@ export default function PortfolioContainer({scrollBtn, scrollTitle, projects, hi
         projects={projects}
       />
       <HireBtnPortfolio
+        locale={locale}
         title={hireTitle}
         subtitle={hireSubtitle}
         btn={hireBtn}

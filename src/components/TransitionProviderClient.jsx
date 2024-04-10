@@ -7,6 +7,9 @@ import { usePathname } from "next/navigation";
 
 const TransitionProviderClient = ({ children, locale, translations}) => {
   const pathName = usePathname();
+  const routes = pathName.slice(4) === "" ? translations.home : translations[pathName.slice(4)]
+  console.log(translations[pathName.slice(4)]);
+
 
   return (
     <AnimatePresence mode="wait">
@@ -27,7 +30,7 @@ const TransitionProviderClient = ({ children, locale, translations}) => {
           exit={{ opacity: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
-          {pathName.slice(4) === "" ? "Home" : pathName.slice(4)}
+          {routes}
         </motion.div>
         <motion.div
           className="h-screen w-screen fixed bg-black rounded-t-[100px] bottom-0 z-30"

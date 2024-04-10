@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion";
 import Link from "next/link";
 
-export default function HireBtnPortfolio({title, subtitle, btn}) {
+export default function HireBtnPortfolio({title, subtitle, btn, locale}) {
   return (
     <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
       <h1 className="text-4xl  md:text-5xl lg:text-8xl">{title}</h1>
@@ -26,7 +26,7 @@ export default function HireBtnPortfolio({title, subtitle, btn}) {
           </text>
         </motion.svg>
         <Link
-          href="/contact"
+          href={`/${locale}/contact`}
           className="w-16 h-16 md:w-28 md:h-28 absolute top-0 left-0 right-0 bottom-0 m-auto bg-black text-white rounded-full flex items-center justify-center"
         >
           {btn}
