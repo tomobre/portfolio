@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function HireBtnPortfolio({title, subtitle, btn, locale}) {
   return (
-    <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
+    <div className="w-screen h-screen my-10 flex flex-col gap-16 items-center justify-center text-center">
       <h1 className="text-4xl  md:text-5xl lg:text-8xl">{title}</h1>
       <div className="relative">
         <motion.svg

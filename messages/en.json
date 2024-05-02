@@ -12,39 +12,127 @@
     }
   },
   "Index": {
-    "title": "Crafting Digital Experiences, Designing Tomorrow.",
-    "description": "creativity converge. With a keen eye for aesthetics and a mastery of code, my portfolio showcases a diverse collection of projects that reflect my commitment to excellence.",
+    "title": "Versatile Programming: Bridging Psychology  with Code",
+    "description": "Hi! I'm Tomas, a passionate programmer with a background in psychology. My journey from psychology to programming brings unique perspectives and creative solutions. Explore how I can add value to your team in my portfolio.",
     "contactButton": "Contact me",
     "portfolioButton": "View my work"
   },
   "About": {
     "biography": {
-      "title": "Crafting Digital Experiences, Designing Tomorrow.",
-      "description": "creativity converge. With a keen eye for aesthetics and a mastery of code, my portfolio showcases a diverse collection of projects that reflect my commitment to excellence.",
-      "footer": "Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      "title": "Bio",
+      "description": "Before diving into the world of coding, I was a psychologist, navigating through hospitals and working directly with patients. Surprisingly, those early days laid the foundation for much of my current career. They gifted me with a unique perspective and a set of soft skills that are invaluable in the fast-paced world of programming. Communication is king, whether it's collaborating with colleagues or tech leads, mastering the art of giving and receiving feedback is essential. Driven by curiosity, a trait that's always been a part of me, I embarked on a self-taught journey into programming during the Covid era. It was like discovering a new universe within my own, and I decided to make a complete 180-degree turn. Armed with my projects, I set out to find a job, landing my first gigs where I learned on the fly. Remote work in the programming realm gave me the freedom to pursue another passion: traveling. I found myself relocating to Australia, working for a homegrown Aussie company. After indulging in a 5-month adventure across Asia, followed by a blissful reunion with family in Buenos Aires for 2 months, I decided to settle in Europe, Spain, to dive back into the world of tech.",
+      "footer": "'Life begins at the end of your comfort zone.' - Neale Donald Walsch"
     },
     "skills": { "title": "SKILLS" },
     "experience": {
       "title": "EXPERIENCE",
       "experience": [
-        { "title": "title", "description": "descrip", "company": "company", "years":"2024-2024"  },
-        { "title": "title", "description": "descrip", "company": "company", "years":"2024-2024"},
-        { "title": "title", "description": "descrip", "company": "company" , "years":"2024-2024"},
-        { "title": "title", "description": "descrip", "company": "company", "years":"2024-2024" }
+        { "title": "Web developer", "description": "Worked on several fixes for the Session desktop app, which uses Electron JS. In charge of weekly deployments with VPS and fixes/features on several OXEN/SESSION/OPTF websites. working with Next JS. Entire migration of OPTF website from Wordpress to Next js. Developing a project which connects criptocurrency contracts in Solidity with a Next js Website.", "company": "Oxen", "years":"2022-2023"  },
+        { "title": "Fullstack developer", "description": "Project 1: Website with interactive menu, using React JS, Tailwind and Firebase. - Project 2: Website tech migration in each section, using React JS and Tailwind. Project 3: Website focused on professional coaches workbooks, using Vue Js and Express in backend together with MySql. Project 4: Ecommerce website for professional coaches profiles, using React js, Gatbsy and Tailwind in front and Express js, firebase for auth and mySql with postgreSql. Project 5: Coaching app based on tinder platform connecting clients with coaches, using React Native with Typescript with Redux for state handling and different implementations along the way such as WebRTC for videocalls, and Express JS with postgresSQL for the backend .", "company": "ROUR DEV", "years":"2021-2022"},
+        { "title": "Frontend developer", "description": "In charge of the entire UALA's static websites for Argentina, Colombia and Mexico, using Next Js and Tailwind with Vercel.", "company": "UALA" , "years":"2022"},
+        { "title": "Frontend developer", "description": "Developing website with VTEX IO that contains native components as much as customised ones according to the clients needs. As the most experienced frontend dev in the team, I am in charge of daily deployment, which gives me major responsabilites and everyday learnings.", "company": "GLAMIT", "years":"2021-2022" },
+                {
+                  "title": "Fullstack developer",
+                  "description": "Fullstack Acceleration internship developing websites in teams with SCRUM methodology for non profit organizations. using React JS and Express JS.",
+                  "company": "ALKEMY",
+                  "years": "2020-2020"
+                }
       ]
     }
   },
   "Portfolio": {
     "title": "my works",
     "portfolio": [
-      { "title": "title", "description": "decrip" },
-      { "title": "title", "description": "decrip" },
-      { "title": "title", "description": "decrip" },
-      { "title": "title", "description": "decrip" },
-      { "title": "title", "description": "decrip" }
+      {
+        "title": "OPTF",
+        "description": "Working for OXEN, made the entire migration for the OPTF website originally made with wordpress to the Next, Tailwind and Contentful stack, still consuming blogposts from the wordpress API"
+      },
+      {
+        "title": "OXEN",
+        "description": "Working for OXEN, made several changes in style and structure for the OXEN website, as well as daily deployments and VPS interactions. Website made with the Next js, Tailwind and Contentful stack."
+      },
+      {
+        "title": "SESSION",
+        "description": "Working for OXEN, made several changes in style and structure for the SESSION website, as well as daily deployments and VPS interactions. Website made with the Next js, Tailwind and Contentful stack."
+      },
+      {
+        "title": "LOKINET",
+        "description": "Working for OXEN, made several changes in style and structure for the LOKINET website, as well as daily deployments and VPS interactions. Website made with the Next js, Tailwind and Contentful stack."
+      },
+      {
+        "title": "Oxen Dashboard",
+        "description": "Working for OXEN, created a dashboard where the company could see the daily improvements from stats  of their products. Website made with Next js and Tailwind, Backend uses Express js, TypeOrm and Postgres for the database."
+      },
+      {
+        "title": "UALA Argentina",
+        "description": "Working for UALA, made several changes in style and structure for the UALA website, and daily deployments with Vercel. Website made with the Next js, Tailwind, Framer Motion and Contentful stack."
+      }, {
+        "title": "UALA Colombia",
+        "description": "Working for UALA, made several changes in style and structure for the UALA  Colombia website, and daily deployments with Vercel. Website made with the Next js, Tailwind, Framer Motion and Contentful stack."
+      },
+      {
+        "title": "UALA Mexico",
+        "description": "Working for UALA, made several changes in style and structure for the UALA Mexico website, and daily deployments with Vercel. Website made with the Next js, Tailwind, Framer Motion and Contentful stack."
+      },
+      {
+        "title": "UALA ABC Mexico",
+        "description": "Working for UALA, made several changes in style and structure for the UALA ABC Mexico website, and daily deployments with Vercel. Website made with the Next js, Tailwind, Framer Motion and Contentful stack."
+      },
+      {
+        "title": "UALA+ Argentina",
+        "description": "Working for UALA, made several changes in style and structure for the UALA+ website, and daily deployments with Vercel. Website made with the Next js, Tailwind, Framer Motion and Contentful stack."
+      },
+      {
+        "title": "UALABIS Argentina",
+        "description": "Working for UALA, made several changes in style and structure for the UALA Bis website, and daily deployments with Vercel. Website made with the Next js, Tailwind, Framer Motion and Contentful stack."
+      },
+      {
+        "title": "UALABIS Mexico",
+        "description": "Working for UALA, made several changes in style and structure for the UALA Bis  Mexico website, and daily deployments with Vercel. Website made with the Next js, Tailwind, Framer Motion and Contentful stack."
+      },
+      {
+        "title": "UALINTEC INV",
+        "description": "Working for UALA, made several changes in style and structure for the UALINTEC Investment website, and daily deployments with Vercel. Website made with the Next js, Tailwind, Framer Motion and Contentful stack."
+      },
+      {
+        "title": "UALINTEC",
+        "description": "Working for UALA, made several changes in style and structure for the UALINTEC Argentina website, and daily deployments with Vercel. Website made with the Next js, Tailwind, Framer Motion and Contentful stack."
+      },
+      {
+        "title": "Cryptotracker",
+        "description": "First app made entirely with React Native, which allows you to see all the cryptocoins available and it's markets values, also being able to select one to see more details and pick your favorites."
+      },
+      {
+        "title": "Appashops",
+        "description": "I used VTEX IO to develop an ecommerce website with multiple brands and sellers, working on both native and customized components. As the most experienced frontend programmer, I had significant responsibilities that helped me grow professionally every day."
+      },
+      {
+        "title": "Coach Training Edu",
+        "description": "Working in Rour.dev together with other frontEnd developers, we migrated the current website made entirely with WordPress into React.js."
+      },
+      {
+        "title": "Budgapp",
+        "description": "My second fullstack project used MySql for a website where users can manage incomes and expenses by categories, filter, create, or modify operations. Built with HTML, CSS, JavaScript, React, React-Bootstrap, Modal React, Styled-components, Axios, Node.js, Express, MySql, JWT, Express-validator."
+      },
+      {
+        "title": "Epayco",
+        "description": "My first fullstack project used MongoDB as the database. It allows users to create accounts, manage money, and buy services with email verification. Built with React, Bootstrap, Axios, Node.js, MongoDB, NodeMailer, and Express.js."
+      },
+      {
+        "title": "Pokedex",
+        "description": "With the PokeApi implementation, I generated a website with the Pokemon Saga history and a final Pokemon list, using vanilla javascript and Bootstrap"
+      },
+      {
+        "title": "Di Lorenzo",
+        "description": "I made a website for Di Lorenzo Restaurant implementing AJAX with Fetch using an external API from Stripe, that works as backend to give me the food and payment data"
+      },
+      {
+        "title": "Chuck Norris Robots",
+        "description": "With the help of two external apis and react, I generated a button that delivers a joke about the famous Chuck Norris told by a Robot. I used an Api for the robot images and another one for the jokes, using React js. "
+      }
     ],
     "portfolioButton": "view demo",
-    "contact": { "title": "title", "role": "frontend dev", "button": "hire me" }
+    "contact": { "title": "interested? ;)", "role": "website developer", "button": "hire me" }
   },
   "Contact": {
     "form": {

@@ -16,7 +16,7 @@ export default function Experience({ title, experiences }) {
         initial={{ x: "-300px" }}
         animate={isExperienceRefInView ? { x: "0" } : {}}
         transition={{ delay: 0.2 }}
-        className="font-bold text-2xl"
+        className="font-bold text-2xl text-VSLightBlue"
       >
         {title}
       </motion.h1>
@@ -28,11 +28,19 @@ export default function Experience({ title, experiences }) {
       >
         {/* EXPERIENCE LIST ITEM */}
         {experiences.map((experience, index) => {
-          const renderJob = () => {
+          const renderJob = (index) => {
             return (
-              <div>
-                <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                  {experience.title}
+              <div className="text-gray-300 ">
+                <div
+                  className={`p-3 font-semibold  border-4 border-double ${
+                    index % 2 !== 0 && index !== 0
+                      ? "rounded-e-lg rounded-b-lg border-VSPink"
+                      : "rounded-b-lg rounded-s-lg  border-VSGreen"
+                  }`}
+                >
+                  <span> {experience.title}</span>
+                  <br />
+                  <span className="text-xs">{experience.company}</span>
                 </div>
                 <div className="p-3 text-sm italic">
                   {experience.description}
@@ -41,19 +49,15 @@ export default function Experience({ title, experiences }) {
                 <div className="p-3 text-red-400 text-sm font-semibold">
                   {experience.years}
                 </div>
-                {/* JOB COMPANY */}
-                <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                  {experience.company}
-                </div>
               </div>
             );
           };
 
           return (
-            <div className="flex justify-between h-48">
+            <div className="flex justify-between">
               {/* LEFT */}
-              <div className="w-1/3 ">
-                {(index === 0 || index % 2 === 0) && renderJob()}
+              <div className="w-2/3 ">
+                {(index === 0 || index % 2 === 0) && renderJob(index)}
               </div>
               {/* CENTER */}
               <div className="w-1/6 flex justify-center">
@@ -64,8 +68,8 @@ export default function Experience({ title, experiences }) {
                 </div>
               </div>
               {/* RIGHT */}
-              <div className="w-1/3 ">
-                {index % 2 !== 0 && index !== 0 && renderJob()}
+              <div className="w-2/3">
+                {index % 2 !== 0 && index !== 0 && renderJob(index)}
               </div>
             </div>
           );

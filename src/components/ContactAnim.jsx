@@ -3,13 +3,14 @@ import { motion } from "framer-motion";
 
 export default function ContactAnim({ textAnim }) {
   return (
-    <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-6xl">
+    <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-3xl md:text-6xl my-10 lg:my-2 ">
       <div>
         {textAnim.split("").map((letter, index) => (
           <motion.span
             key={index}
             initial={{ opacity: 1 }}
             animate={{ opacity: 0 }}
+            className="bg-white"
             transition={{
               duration: 3,
               repeat: Infinity,
@@ -19,7 +20,6 @@ export default function ContactAnim({ textAnim }) {
             {letter}
           </motion.span>
         ))}
-        😊
       </div>
     </div>
   );

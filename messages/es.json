@@ -12,61 +12,150 @@
     }
   },
   "Index": {
-    "title": "Generando experiencias digitales",
-    "description": "con un ojo para la programacion y para la comunicacion y las soft skills.",
+    "title": "Programacion Versátil: Uniendo la Psicología  con el Código",
+    "description": "¡Hola! Soy Tomas, un programador apasionado con formación en psicología. Mi trayectoria desde la psicología hasta la programación ofrece perspectivas únicas y soluciones creativas. Descubre cómo puedo agregar valor a tu equipo en mi portafolio.",
     "contactButton": "contacto",
     "portfolioButton": "mira mis trabajos"
   },
   "About": {
     "biography": {
-      "title": "biografia",
-      "description": "fui psicologo y me otorgo las soft skills necesarias para trbajaar correctamente",
-      "footer": "firmita bla bla."
+      "title": "Bio",
+      "description": "Antes de sumergirme en el mundo de la programación, yo era un psicólogo, navegando entre hospitales y trabajando directamente con pacientes. Sorprendentemente, esos primeros días sentaron las bases para gran parte de mi carrera actual. Me regalaron una perspectiva única y un conjunto de habilidades blandas que son invaluables en el vertiginoso mundo de la programación. La comunicación es clave, ya sea colaborando con colegas o líderes técnicos, dominar el arte de dar y recibir feedback es esencial.Impulsado por la curiosidad, una cualidad que siempre ha sido parte de mí, emprendí un viaje autodidacta hacia la programación durante la era de Covid. Fue como descubrir un nuevo universo dentro del mío, y decidí dar un giro completo de 180 grados. Armado con mis proyectos, me dispuse a encontrar un trabajo, consiguiendo mis primeras oportunidades donde aprendí sobre la marcha. El trabajo remoto en el mundo de la programación me brindó la libertad para perseguir otra pasión: viajar. Me encontré trasladándome a Australia, trabajando para una empresa local australiana. Después de disfrutar de una aventura de 5 meses por Asia, seguida de un reencuentro feliz con mi familia en Buenos Aires durante 2 meses, decidí instalarme en Europa, en España, para sumergirme nuevamente en el mundo tecnológico.",
+      "footer": "'La vida comienza al final de tu zona de confort'.  - Neale Donald Walsch "
     },
     "skills": { "title": "TECNOLOGIAS" },
     "experience": {
       "title": "EXPERIENCIA",
       "experience": [
         {
-          "title": "title",
-          "description": "descrip",
-          "company": "company",
-          "years": "2024-2024"
+          "title": "Web developer",
+          "description": "Solucionando diversos fixes para la app de escritorio de Session,, que utiliza Electron JS. A cargo de deployar semanalmente hacia una VPS, fixes/features en los sitios web de OXEN/SESSION/OPTF, trabajando con Next JS. A cargo de la migracion completa del sitio web de OPTF de Wordpress a Next Js Elaboracion de un proyecto que conecta contratos de Solidity con sitio web generado con Next Js.",
+          "company": "OXEN",
+          "years": "2022-2023"
         },
         {
-          "title": "title",
-          "description": "descrip",
-          "company": "company",
-          "years": "2024-2024"
+          "title": "Fullstack developer",
+          "description": "Proyecto 1: Sitio web con menu interactivo usando React JS, Tailwind y Firebase. Proyecto 2: migracion de website usando React JS y Tailwind. Proyecto 3: Sitio web enfocado en workbooks de coaches, usando Vue Js y Express para backend con base de datos de MySql. Proyecto 4: Sitio web ecommerce para perfiles de coaches profesionales, usando React js, Gatbsy y Tailwind en front conectando con Express js, firebase para auth y mySql como base de datos con postgreSql. Proyecto 5: App de coaching basada en tinder conectando clientes con coaches usando React Native con Typescript, Redux, y diferentes librerias como WebRTC para videollamadas y Express JS con postgresSQL para el backend",
+          "company": "ROUR DEV",
+          "years": "2021-2022"
         },
         {
-          "title": "title",
-          "description": "descrip",
-          "company": "company",
-          "years": "2024-2024"
+          "title": "Frontend developer",
+          "description": "A cargo de cualquier cambio diario en todos los sitios web de Uala para Argentina, Colombia y Mexico, generados con Next Js.",
+          "company": "UALA",
+          "years": "2022"
         },
         {
-          "title": "title",
-          "description": "descrip",
-          "company": "company",
-          "years": "2024-2024"
-        }
+          "title": "Frontend developer",
+          "description": "Con VTEX IO desarrollando sitio web tanto con componentes nativos de VTEX como con customizados acorde a las necesidades del cliente. Mayor responsable en el equipo en el area de Front, representando un desafio diario que me hace crecer contantemente.",
+          "company": "GLAMIT",
+          "years": "2021-2022"
+        },
+        {
+                 "title": "Fullstack developer",
+                 "description": "Aceleracion Fullstack de interno desarollando website para ONG con metodologia SCRUM usando React JS y Express JS",
+                 "company": "ALKEMY",
+                 "years": "2020"
+               }
       ]
     }
   },
   "Portfolio": {
     "title": "MIS TRABAJOS",
     "portfolio": [
-      { "title": "title", "description": "decripdecri pdecripd ecrip decr ipdecripde cripdecripdecrip ecrip decrip decripdecrip decrip decrip decripdecripdecrip decrip decrip decrip" },
-      { "title": "title", "description": "decrip" },
-      { "title": "title", "description": "decrip" },
-      { "title": "title", "description": "decrip" },
-      { "title": "title", "description": "decrip" }
-    ],
+    {
+        "title": "OPTF",
+        "description": "Trabajando para OXEN, realicé la migración completa del sitio web de OPTF, originalmente hecho con wordpress, al stack de Next, Tailwind y Contentful, aún consumiendo blogposts de la API de wordpress."
+    },
+    {
+        "title": "OXEN",
+        "description": "Trabajando para OXEN, realicé varios cambios en el estilo y la estructura del sitio web de OXEN, así como deploys diarios e interacciones con VPS. El sitio web está hecho con el stack de Next.js, Tailwind y Contentful."
+    },
+    {
+        "title": "SESSION",
+        "description": "Trabajando para OXEN, realicé varios cambios en el estilo y la estructura del sitio web de SESSION, así como deploys diarios e interacciones con VPS. El sitio web está hecho con el stack de Next.js, Tailwind y Contentful."
+    },
+    {
+        "title": "LOKINET",
+        "description": "Trabajando para OXEN, realicé varios cambios en el estilo y la estructura del sitio web de LOKINET, así como deploys diarios e interacciones con VPS. El sitio web está hecho con el stack de Next.js, Tailwind y Contentful."
+    },
+    {
+      "title": "Oxen Dashboard",
+      "description": "Trabajando para OXEN, creé un panel de control donde la empresa podía ver los stats de sus productos. El sitio web está hecho con Next.js y Tailwind, el backend utiliza Express.js, TypeOrm y Postgres para la base de datos."
+    },
+    {
+        "title": "UALA Argentina",
+        "description": "Trabajando para UALA, realicé varios cambios en el estilo y la estructura del sitio web de UALA, y deploys diarios con Vercel. El sitio web está hecho con el stack de Next.js, Tailwind, Framer Motion y Contentful."
+    },
+    {
+        "title": "UALA Colombia",
+        "description": "Trabajando para UALA, realicé varios cambios en el estilo y la estructura del sitio web de UALA Colombia, y deploys diarios con Vercel. El sitio web está hecho con el stack de Next.js, Tailwind, Framer Motion y Contentful."
+    },
+    {
+        "title": "UALA México",
+        "description": "Trabajando para UALA, realicé varios cambios en el estilo y la estructura del sitio web de UALA México, y deploys diarios con Vercel. El sitio web está hecho con el stack de Next.js, Tailwind, Framer Motion y Contentful."
+    },
+    {
+        "title": "UALA ABC México",
+        "description": "Trabajando para UALA, realicé varios cambios en el estilo y la estructura del sitio web de UALA ABC México, y deploys diarios con Vercel. El sitio web está hecho con el stack de Next.js, Tailwind, Framer Motion y Contentful."
+    },
+    {
+        "title": "UALA+ Argentina",
+        "description": "Trabajando para UALA, realicé varios cambios en el estilo y la estructura del sitio web de UALA+, y deploys diarios con Vercel. El sitio web está hecho con el stack de Next.js, Tailwind, Framer Motion y Contentful."
+    },
+    {
+        "title": "UALABIS Argentina",
+        "description": "Trabajando para UALA, realicé varios cambios en el estilo y la estructura del sitio web de UALABIS, y deploys diarios con Vercel. El sitio web está hecho con el stack de Next.js, Tailwind, Framer Motion y Contentful."
+    },
+    {
+        "title": "UALABIS México",
+        "description": "Trabajando para UALA, realicé varios cambios en el estilo y la estructura del sitio web de UALABIS México, y deploys diarios con Vercel. El sitio web está hecho con el stack de Next.js, Tailwind, Framer Motion y Contentful."
+    },
+    {
+        "title": "UALINTEC INV",
+        "description": "Trabajando para UALA, realicé varios cambios en el estilo y la estructura del sitio web de UALINTEC Inversiones, y deploys diarios con Vercel. El sitio web está hecho con el stack de Next.js, Tailwind, Framer Motion y Contentful."
+    },
+    {
+        "title": "UALINTEC",
+        "description": "Trabajando para UALA, realicé varios cambios en el estilo y la estructura del sitio web de UALINTEC Argentina, y deploys diarios con Vercel. El sitio web está hecho con el stack de Next.js, Tailwind, Framer Motion y Contentful."
+    },
+    {
+        "title": "Cryptotracker",
+        "description": "Primer aplicación realizada completamente con React Native, que te permite ver todas las criptomonedas disponibles y sus valores en los mercados, además de poder seleccionar una para ver más detalles y elegir tus favoritas."
+    },
+    {
+        "title": "Appashops",
+        "description": "Desarrollé un nuevo sitio de ecommerce con VTEX IO, incluyendo múltiples marcas y vendedores. Trabajé en componentes nativos y personalizados según los requisitos del cliente. Como el programador frontend más experimentado, asumí grandes responsabilidades y crecí profesionalmente cada día."
+    },
+    {
+        "title": "Coach Training Edu",
+        "description": "Trabajando en Rour.dev junto con otros desarrolladores frontEnd, migramos el sitio web actual hecho completamente con WordPress a React.js."
+    },
+    {
+        "title": "Budgapp",
+        "description": "Desarrollé mi segundo proyecto fullstack, usando MySQL para un sitio web donde puedes gestionar tus ingresos y gastos por categorías, filtrar, crear y modificar operaciones. Hecho con HTML, CSS, JavaScript, React, React-Bootstrap, Modal React, Styled-components, Axios, Node.js, Express, MySQL, JWT y Express-validator."
+    },
+    {
+        "title": "Epayco",
+        "description": "Desarrollé mi primer proyecto fullstack motivado por una oportunidad laboral, utilizando MongoDB. El sitio web permite crear usuario, cargar dinero, verificar la billetera virtual y comprar un servicio con TOKEN en tu correo. Hecho con React, Bootstrap, Axios, Node.js, MongoDB, NodeMailer y Express.js."
+    },
+    {
+        "title": "Pokedex",
+        "description": "Con la implementación de PokeApi, generé un sitio web con la historia de la Saga Pokemon y una lista final de Pokemon, usando javascript vanilla y Bootstrap."
+    },
+    {
+        "title": "Di Lorenzo",
+        "description": "Hice un sitio web para el Restaurante Di Lorenzo implementando AJAX con Fetch usando una API externa de Stripe, que funciona como backend para darme los datos de comida y pago."
+    },
+    {
+        "title": "Chuck Norris Robots",
+        "description": "Con la ayuda de dos APIs externas y React, generé un botón que entrega un chiste sobre el famoso Chuck Norris contado por un Robot. Usé una API para las imágenes de robot y otra para los chistes, utilizando React.js."
+    }
+],
     "portfolioButton": "VER",
     "contact": {
-      "title": "CONTRATAME",
-      "role": "frontend dev",
+      "title": "interesad@? ;)",
+      "role": "website developer",
       "button": "hire me"
     }
   },
