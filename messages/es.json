@@ -1,10 +1,10 @@
 {
   "Layout": {
     "navBar": {
-      "home": "Inicio",
-      "about": "Bio",
-      "portfolio": "Portfolio",
-      "contact": "Contacto",
+      "home": "[Inicio]",
+      "about": "[Bio]",
+      "portfolio": "[Portfolio]",
+      "contact": "[Contacto]",
       "locales": {
         "spanish": "español",
         "english": "ingles"
@@ -13,13 +13,13 @@
   },
   "Index": {
     "title": "Programacion Versátil: Uniendo la Psicología  con el Código",
-    "description": "¡Hola! Soy Tomas, un programador apasionado con formación en psicología. Mi trayectoria desde la psicología hasta la programación ofrece perspectivas únicas y soluciones creativas. Descubre cómo puedo agregar valor a tu equipo en mi portafolio.",
+    "description": "¡Hola! Soy Tomas, un programador apasionado con formación en psicología. Mi trayectoria desde la psicología hasta la programación ofrece perspectivas únicas y soluciones creativas. Descubre cómo puedo agregar valor a tu equipo en mi portfolio].",
     "contactButton": "contacto",
-    "portfolioButton": "mira mis trabajos"
+    "portfolioButton": "[mira mis trabajos]"
   },
   "About": {
     "biography": {
-      "title": "Bio",
+      "title": "[Bio]",
       "description": "Antes de sumergirme en el mundo de la programación, yo era un psicólogo, navegando entre hospitales y trabajando directamente con pacientes. Sorprendentemente, esos primeros días sentaron las bases para gran parte de mi carrera actual. Me regalaron una perspectiva única y un conjunto de habilidades blandas que son invaluables en el vertiginoso mundo de la programación. La comunicación es clave, ya sea colaborando con colegas o líderes técnicos, dominar el arte de dar y recibir feedback es esencial.Impulsado por la curiosidad, una cualidad que siempre ha sido parte de mí, emprendí un viaje autodidacta hacia la programación durante la era de Covid. Fue como descubrir un nuevo universo dentro del mío, y decidí dar un giro completo de 180 grados. Armado con mis proyectos, me dispuse a encontrar un trabajo, consiguiendo mis primeras oportunidades donde aprendí sobre la marcha. El trabajo remoto en el mundo de la programación me brindó la libertad para perseguir otra pasión: viajar. Me encontré trasladándome a Australia, trabajando para una empresa local australiana. Después de disfrutar de una aventura de 5 meses por Asia, seguida de un reencuentro feliz con mi familia en Buenos Aires durante 2 meses, decidí instalarme en Europa, en España, para sumergirme nuevamente en el mundo tecnológico.",
       "footer": "'La vida comienza al final de tu zona de confort'.  - Neale Donald Walsch "
     },

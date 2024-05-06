@@ -1,10 +1,10 @@
 {
   "Layout": {
     "navBar": {
-      "home": "Home",
-      "about": "About",
-      "portfolio": "Portfolio",
-      "contact": "Contact",
+      "home": "[Home]",
+      "about": "[About]",
+      "portfolio": "[Portfolio]",
+      "contact": "[Contact]",
       "locales": {
         "spanish": "spanish",
         "english": "english"
@@ -15,11 +15,11 @@
     "title": "Versatile Programming: Bridging Psychology  with Code",
     "description": "Hi! I'm Tomas, a passionate programmer with a background in psychology. My journey from psychology to programming brings unique perspectives and creative solutions. Explore how I can add value to your team in my portfolio.",
     "contactButton": "Contact me",
-    "portfolioButton": "View my work"
+    "portfolioButton": "[View my work]"
   },
   "About": {
     "biography": {
-      "title": "Bio",
+      "title": "[Bio]",
       "description": "Before diving into the world of coding, I was a psychologist, navigating through hospitals and working directly with patients. Surprisingly, those early days laid the foundation for much of my current career. They gifted me with a unique perspective and a set of soft skills that are invaluable in the fast-paced world of programming. Communication is king, whether it's collaborating with colleagues or tech leads, mastering the art of giving and receiving feedback is essential. Driven by curiosity, a trait that's always been a part of me, I embarked on a self-taught journey into programming during the Covid era. It was like discovering a new universe within my own, and I decided to make a complete 180-degree turn. Armed with my projects, I set out to find a job, landing my first gigs where I learned on the fly. Remote work in the programming realm gave me the freedom to pursue another passion: traveling. I found myself relocating to Australia, working for a homegrown Aussie company. After indulging in a 5-month adventure across Asia, followed by a blissful reunion with family in Buenos Aires for 2 months, I decided to settle in Europe, Spain, to dive back into the world of tech.",
       "footer": "'Life begins at the end of your comfort zone.' - Neale Donald Walsch"
     },

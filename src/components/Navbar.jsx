@@ -73,13 +73,13 @@ export default function Navbar({ locale, translations}) {
   return (
     <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-lg text-white">
       {/* LINKS */}
-      <div className="hidden md:flex gap-4 w-1/3">
+      <div className="hidden lg:flex gap-4 w-1/3 text-sm lg:text-md">
         {links.map((link) => (
           <NavLink link={link} key={link.title} />
         ))}
       </div>
       {/* SOCIAL */}
-      <div className="hidden md:flex gap-4 w-1/3">
+      <div className="hidden lg:flex gap-4 w-1/3">
         <Link
           href="https://github.com/tomobre"
           rel="noopener noreferrer"
@@ -104,7 +104,7 @@ export default function Navbar({ locale, translations}) {
       </div>
       <LocalSwitcher translations={translations.locales} />
       {/* RESPONSIVE MENU */}
-      <div className="md:hidden">
+      <div className="lg:hidden">
         {/* MENU BUTTON */}
         <button
           className="w-10 h-8 flex flex-col justify-between z-50 relative"

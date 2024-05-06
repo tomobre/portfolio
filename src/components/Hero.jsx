@@ -16,7 +16,7 @@ export default function Hero({ title, description, contactBtn, workBtn, locale }
         <div className=" h-auto lg:h-full flex flex-col gap-8 lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 bg-black pb-10">
           <div className="h-1/2 lg:h-full lg:w-1/2  h-auto rounded-full mr-4">
             <Image
-              src="/profile2.png"
+              src="/profile4.png"
               alt=""
               height={500}
               width={500}
