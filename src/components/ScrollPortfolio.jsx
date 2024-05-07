@@ -36,7 +36,7 @@ export default function ScrollPortfolio({title, seeBtn, projects}) {
                   {item.title}
                 </h1>
                 <div className="relative w-64 h-44 md:w-96 md:h-64 lg:w-[500px]  lg:h-[350px] xl:w-[400px] xl:h-[250px] 2xl:h-[500px] 2xl:w-[800px]">
-                  <Image src={item.img} alt={item.title} fill />
+                  <Image className='rounded-xl border-2 shadow-xl border-white' src={item.img} alt={item.title} fill />
                 </div>
                 <p className="w-64 sm:w-32 md:w-96 lg:w-[500px] text-xs lg:text-lg xl:w-[600px]">
                   {item.description}
