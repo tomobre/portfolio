@@ -32,7 +32,7 @@ const TransitionProviderClient = ({ children, locale, translations}) => {
   
   return (
     <AnimatePresence mode="wait">
-      <div key={pathName} className={"w-screen bg-fixed bg-cover " + bg}>
+      <div key={pathName} className={"w-screen bg-fixed " + bg}>
         <motion.div
           className="h-auto lg:h-screen w-screen fixed  rounded-b-[100px] z-40 bg-white"
           animate={{ height: "0vh" }}
