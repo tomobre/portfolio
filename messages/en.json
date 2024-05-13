@@ -6,8 +6,8 @@
       "portfolio": "[Portfolio]",
       "contact": "[Contact]",
       "locales": {
-        "spanish": "spanish",
-        "english": "english"
+        "spanish": "SPA",
+        "english": "ENG"
       }
     }
   },

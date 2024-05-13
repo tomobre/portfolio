@@ -18,8 +18,8 @@ export default function LocalSwitcher({translations}) {
   };
 
   return (
-    <div>
-      <label className="border-2 rounded text-black">
+    <div className="bg-transparent">
+      <label className="border-none bg-transparent rounded text-black font-bold">
         <p className="sr-only"> change language</p>
         <select
           defaultValue={localeActive}

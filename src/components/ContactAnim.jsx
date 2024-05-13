@@ -10,7 +10,6 @@ export default function ContactAnim({ textAnim }) {
             key={index}
             initial={{ opacity: 1 }}
             animate={{ opacity: 0 }}
-            className="bg-white"
             transition={{
               duration: 3,
               repeat: Infinity,

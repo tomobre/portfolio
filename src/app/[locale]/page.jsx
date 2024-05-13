@@ -4,7 +4,7 @@ import Hero from "../../components/Hero";
 const Homepage = ({params: { locale },} ) => {
   const t = useTranslations("Index");
   return (
-    <div>
+    <div >
       <Hero
         locale={locale}
         title={t("title")}

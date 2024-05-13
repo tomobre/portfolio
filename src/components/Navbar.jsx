@@ -23,7 +23,7 @@ export default function Navbar({ locale, translations}) {
     },
     opened: {
       rotate: 45,
-      backgroundColor: "rgb(255,255,255)",
+      backgroundColor: "rgb(0,0,0)",
     },
   };
 
@@ -42,7 +42,7 @@ export default function Navbar({ locale, translations}) {
     },
     opened: {
       rotate: -45,
-      backgroundColor: "rgb(255,255,255)",
+      backgroundColor: "rgb(0,0,0)",
     },
   };
 
@@ -71,38 +71,54 @@ export default function Navbar({ locale, translations}) {
   };
 
   return (
-    <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-lg text-white">
+    <div className="h-full flex items-center justify-between px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48 text-lg text-black">
       {/* LINKS */}
       <div className="hidden lg:flex gap-4 w-1/3 text-sm lg:text-md">
         {links.map((link) => (
           <NavLink link={link} key={link.title} />
         ))}
       </div>
+      <h3 className="font-bold text-center leading-4">
+        TOMAS<br></br> OBREGON
+      </h3>
       {/* SOCIAL */}
-      <div className="hidden lg:flex gap-4 w-1/3">
-        <Link
-          href="https://github.com/tomobre"
-          rel="noopener noreferrer"
-          target="_blank"
-        >
-          <Image src="/github.png" alt="github logo" width={24} height={24} />
-        </Link>
-        <Link
-          rel="noopener noreferrer"
-          target="_blank"
-          href="https://www.instagram.com/tomobre/"
-        >
-          <Image src="/instagram.png" alt="instagram logo" width={24} height={24} />
-        </Link>
-        <Link
-          rel="noopener noreferrer"
-          target="_blank"
-          href="https://www.linkedin.com/in/tomobre/"
-        >
-          <Image src="/linkedin.png" alt="linkedin logo" width={24} height={24} />
-        </Link>
+      <div className="flex">
+        <div className="hidden lg:flex gap-2 mr-2 ">
+          <Link
+            href="https://github.com/tomobre"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <Image src="/github.png" alt="github logo" width={24} height={24} />
+          </Link>
+          <Link
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.instagram.com/tomobre/"
+          >
+            <Image
+              src="/instagram.png"
+              alt="instagram logo"
+              width={24}
+              height={24}
+            />
+          </Link>
+          <Link
+            rel="noopener noreferrer"
+            target="_blank"
+            href="https://www.linkedin.com/in/tomobre/"
+          >
+            <Image
+              src="/linkedin.png"
+              alt="linkedin logo"
+              width={24}
+              height={24}
+            />
+          </Link>
+        </div>
+        <LocalSwitcher translations={translations.locales} />
       </div>
-      <LocalSwitcher translations={translations.locales} />
+
       {/* RESPONSIVE MENU */}
       <div className="lg:hidden">
         {/* MENU BUTTON */}
@@ -113,17 +129,17 @@ export default function Navbar({ locale, translations}) {
           <motion.div
             variants={topVariants}
             animate={open ? "opened" : "closed"}
-            className="w-10 h-1 bg-white rounded origin-left"
+            className="w-10 h-1 bg-black rounded origin-left"
           ></motion.div>
           <motion.div
             variants={centerVariants}
             animate={open ? "opened" : "closed"}
-            className="w-10 h-1  bg-white rounded"
+            className="w-10 h-1  bg-black rounded"
           ></motion.div>
           <motion.div
             variants={bottomVariants}
             animate={open ? "opened" : "closed"}
-            className="w-10 h-1 bg-white rounded origin-left"
+            className="w-10 h-1 bg-black rounded origin-left"
           ></motion.div>
         </button>
         {/* MENU LIST */}
@@ -133,9 +149,9 @@ export default function Navbar({ locale, translations}) {
               variants={listVariants}
               initial="closed"
               animate="opened"
-              className="absolute top-0 left-0 w-screen h-screen bg-black text-white flex flex-col items-center justify-center gap-8 text-4xl z-40"
+              className="absolute top-0 left-0 w-screen h-screen text-black flex flex-col items-center justify-center gap-8 text-4xl z-40 bg-white"
             >
-              {links.map((link) => ( 
+              {links.map((link) => (
                 <motion.div
                   variants={listItemVariants}
                   className=""

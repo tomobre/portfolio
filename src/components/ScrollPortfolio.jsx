@@ -17,7 +17,7 @@ export default function ScrollPortfolio({title, seeBtn, projects}) {
 
   return (
     <div className="h-[600vh] relative" ref={ref}>
-      <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-4xl  md:text-5xl lg:text-8xl text-center text-VSYellow">
+      <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-4xl  md:text-5xl lg:text-8xl text-center ">
         {title}
       </div>
       <div className="sticky top-0 flex h-screen gap-4 items-center overflow-hidden bg-gradient-to-r from-[#614385] to-[#516395]">
@@ -31,7 +31,7 @@ export default function ScrollPortfolio({title, seeBtn, projects}) {
               className={`h-screen w-screen flex items-center justify-center`}
               key={item.id}
             >
-              <div className="flex flex-col items-start justify-between gap-8 text-white">
+              <div className="flex flex-col items-start justify-between gap-8 text-black">
                 <h1 className="text-md font-bold md:text-3xl lg:text-5xl xl:text-7xl">
                   {item.title}
                 </h1>

@@ -18,7 +18,7 @@ module.exports = {
         VSGrey: "#808080",
       },
       fontFamily: {
-        cascadecode: ["var(--font-cascadiacode)"],
+        cascadecode: ["var(--font-poppins)"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

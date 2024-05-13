@@ -16,7 +16,7 @@ export default function Experience({ title, experiences }) {
         initial={{ x: "-300px" }}
         animate={isExperienceRefInView ? { x: "0" } : {}}
         transition={{ delay: 0.2 }}
-        className="font-bold text-2xl text-VSLightBlue"
+        className="font-bold text-2xl"
       >
         {title}
       </motion.h1>
@@ -30,7 +30,7 @@ export default function Experience({ title, experiences }) {
         {experiences.map((experience, index) => {
           const renderJob = (index) => {
             return (
-              <div className="text-gray-300 ">
+              <div className="text-black ">
                 <div
                   className={`p-3 font-semibold  border-4 border-double ${
                     index % 2 !== 0 && index !== 0

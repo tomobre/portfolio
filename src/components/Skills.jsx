@@ -47,7 +47,7 @@ export default function Skills({title}) {
         initial={{ x: "-300px" }}
         animate={isSkillRefInView ? { x: 0 } : {}}
         transition={{ delay: 0.2 }}
-        className="font-bold text-2xl text-VSLightBlue"
+        className="font-bold text-2xl"
       >
         {title}
       </motion.h1>
@@ -59,7 +59,7 @@ export default function Skills({title}) {
       >
         {skills.map((skill) => {
           return (
-            <div className="rounded  p-2 text-sm cursor-pointer bg-black hover:bg-white hover:text-black text-VSPink">
+            <div className="rounded  p-2 text-sm cursor-pointer  hover:bg-white hover:text-black">
               {skill}
             </div>
           );

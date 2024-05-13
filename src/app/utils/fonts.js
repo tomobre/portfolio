@@ -1,28 +1,32 @@
 import localFont from "next/font/local";
 
-export const cascadiaCode = localFont({
+export const poppins = localFont({
   display: "swap",
-  variable: "--font-cascadiacode",
+  variable: "--font-poppins",
   src: [
     {
-      path: "../fonts/CascadiaCode-Regular.otf",
+      //regular
+      path: "../fonts/Poppins-Regular.ttf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "../fonts/CascadiaCode-SemiBold.otf",
+      //extra-bold
+      path: "../fonts/Poppins-ExtraBold.ttf",
       weight: "600",
-      style: "normal",
+      style: "bold",
     },
     {
-      path: "../fonts/CascadiaCode-Bold.otf",
+      //black
+      path: "../fonts/Poppins-Black.ttf",
       weight: "700",
-      style: "normal",
+      style: "bold",
     },
     {
-      path: "../fonts/CascadiaCode-Italic.otf",
-      weight: "400",
-      style: "italic",
+      //light
+      path: "../fonts/Poppins-Light.ttf",
+      weight: "300",
+      style: "light",
     },
   ],
 });
