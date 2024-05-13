@@ -4,19 +4,25 @@ import { AnimatePresence } from "framer-motion";
 import Navbar from "./Navbar";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
+import {useEffect} from 'react'
 
 const TransitionProviderClient = ({ children, locale, translations}) => {
   const pathName = usePathname();
   const routes = pathName.slice(4) === "" ? translations.home : translations[pathName.slice(4)]
 
-  console.log(routes)
+  const platform = typeof window !== "undefined" && window?.navigator?.userAgent;
+
+  const isIOS = /iPad|iPhone|iPod/.test(platform) && !window.MSStream;
+  
+
+
   let bg;
   switch (routes) {
     case "[Home]":
       bg = "bg-[url('/fondo.jpg')]";
       break;
     case "[About]":
-      bg = "bg-[url('/fondo_2.jpg')]";
+      bg = isIOS?"bg-none" :"bg-[url('/fondo_2.jpg')]";
       break;
     case "[Portfolio]":
       bg = "bg-[url('/fondo_3.jpg')]";
@@ -27,6 +33,7 @@ const TransitionProviderClient = ({ children, locale, translations}) => {
     default:
       bg = "bg-[url('/fondo.jpg')]";
   }
+
 
   
   

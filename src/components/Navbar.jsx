@@ -78,7 +78,7 @@ export default function Navbar({ locale, translations}) {
           <NavLink link={link} key={link.title} />
         ))}
       </div>
-      <h3 className="font-bold text-center leading-4">
+      <h3 className="font-bold text-center leading-4 lg:-ml-14">
         TOMAS<br></br> OBREGON
       </h3>
       {/* SOCIAL */}
