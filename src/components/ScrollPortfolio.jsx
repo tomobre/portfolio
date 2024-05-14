@@ -31,7 +31,7 @@ export default function ScrollPortfolio({title, seeBtn, projects}) {
               className={`h-screen w-screen flex items-center justify-center`}
               key={item.id}
             >
-              <div className="flex flex-col items-start justify-between gap-8 text-black">
+              <div className="flex flex-col items-start justify-between gap-8 text-white">
                 <h1 className="text-md font-bold md:text-3xl lg:text-5xl xl:text-7xl">
                   {item.title}
                 </h1>
