@@ -12,8 +12,8 @@
     }
   },
   "Index": {
-    "title": "Programacion Versátil: Uniendo la Psicología  con el Código",
-    "description": "¡Hola! Soy Tomas, un programador apasionado con formación en psicología. Mi trayectoria desde la psicología hasta la programación ofrece perspectivas únicas y soluciones creativas. Descubre cómo puedo agregar valor a tu equipo en mi portfolio].",
+    "title": "Programación Versátil: Uniendo la Psicología  con el Código",
+    "description": "¡Hola! Soy Tomás, un programador apasionado con formación en psicología. Mi trayectoria desde la psicología hasta la programación ofrece perspectivas únicas y soluciones creativas. Descubre cómo puedo agregar valor a tu equipo en mi portfolio].",
     "contactButton": "contacto",
     "portfolioButton": "[mira mis trabajos]"
   },
@@ -161,7 +161,7 @@
   },
   "Contact": {
     "form": {
-      "messageLabel": "Hola Tomas",
+      "messageLabel": "Hola Tomás",
       "emailLabel": "Mi email es:",
       "bye": "Saludos",
       "button": "Enviar",
@@ -169,6 +169,6 @@
       "error": "Ha ocurrido un error"
     },
 
-    "animation": "Contame mas"
+    "animation": "Contame más"
   }
 }

@@ -19,19 +19,20 @@ const TransitionProviderClient = ({ children, locale, translations}) => {
   let bg;
   switch (routes) {
     case "[Home]":
-      bg = "bg-[url('/fondo.jpg')]";
+      bg = "lg:bg-[url('/fondo.jpg')] bg-[url('/fondo_m.jpg')]";
       break;
     case "[About]":
-      bg = isIOS?"bg-none" :"bg-[url('/fondo_2.jpg')]";
+      bg = isIOS ? "bg-none" : "bg-[url('/fondo_2.jpg')] bg-fixed bg-no-repeat";
       break;
     case "[Portfolio]":
-      bg = "bg-[url('/fondo_3.jpg')]";
+      bg =
+        " bg-fixed lg:bg-no-repeat  bg-repeat-round lg:bg-[url('/fondo_3.jpg')] bg-[url('/fondo_3_m.jpg')]";
       break;
     case "[Contact]":
-      bg = "bg-[url('/fondo.jpg')]";
+        bg = "lg:bg-[url('/fondo.jpg')] bg-[url('/fondo_m.jpg')]";
       break;
     default:
-      bg = "bg-[url('/fondo.jpg')]";
+      bg = " bg-fixed bg-no-repeat bg-[url('/fondo.jpg')]";
   }
 
 
@@ -39,7 +40,7 @@ const TransitionProviderClient = ({ children, locale, translations}) => {
   
   return (
     <AnimatePresence mode="wait">
-      <div key={pathName} className={"w-screen bg-fixed bg-no-repeat " + bg}>
+      <div key={pathName} className={"w-screen " + bg}>
         <motion.div
           className="h-auto lg:h-screen w-screen fixed  rounded-b-[100px] z-40 bg-white"
           animate={{ height: "0vh" }}

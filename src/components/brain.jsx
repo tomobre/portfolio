@@ -47,6 +47,7 @@ const Brain = ({ scrollYProgress }) => {
                   stroke="#000"
                   strokeWidth="4"
                   fill="#FFF"
+                  fill-opacity="0.0"
                 />
                 <g
                   id="rs-cog50"

@@ -79,7 +79,7 @@ export default function Navbar({ locale, translations}) {
         ))}
       </div>
       <h3 className="font-bold text-center leading-4 lg:-ml-14">
-        TOMAS<br></br> OBREGON
+        TOMÁS<br></br> OBREGON
       </h3>
       {/* SOCIAL */}
       <div className="flex">
