@@ -1,10 +1,15 @@
 import { useTranslations } from "next-intl";
 import PortfolioContainer from "@/components/PortfolioContainer";
 
-
 const PortfolioPage = ({ params: { locale } }) => {
   const t = useTranslations("Portfolio");
   let projects = [
+    {
+      id: 23,
+      color: "from-red-300 to-blue-300",
+      img: "/portfolio/fini.png",
+      link: "https://apps.apple.com/es/app/fini/id6743115423",
+    },
     {
       id: 1,
       color: "from-red-300 to-blue-300",
@@ -154,7 +159,6 @@ const PortfolioPage = ({ params: { locale } }) => {
       link: "https://tomobre.github.io/robots-chuck-norris/",
     },
   ];
-
 
   projects = projects.map((project, index) => {
     project.title = t(`portfolio.${index}.title`);

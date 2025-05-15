@@ -27,22 +27,58 @@
     "experience": {
       "title": "EXPERIENCE",
       "experience": [
-        { "title": "Web developer", "description": "Worked on several fixes for the Session desktop app, which uses Electron JS. In charge of weekly deployments with VPS and fixes/features on several OXEN/SESSION/OPTF websites. working with Next JS. Entire migration of OPTF website from Wordpress to Next js. Developing a project which connects criptocurrency contracts in Solidity with a Next js Website.", "company": "Oxen", "years":"2022-2023"  },
-        { "title": "Fullstack developer", "description": "Project 1: Website with interactive menu, using React JS, Tailwind and Firebase. - Project 2: Website tech migration in each section, using React JS and Tailwind. Project 3: Website focused on professional coaches workbooks, using Vue Js and Express in backend together with MySql. Project 4: Ecommerce website for professional coaches profiles, using React js, Gatbsy and Tailwind in front and Express js, firebase for auth and mySql with postgreSql. Project 5: Coaching app based on tinder platform connecting clients with coaches, using React Native with Typescript with Redux for state handling and different implementations along the way such as WebRTC for videocalls, and Express JS with postgresSQL for the backend .", "company": "ROUR DEV", "years":"2021-2022"},
-        { "title": "Frontend developer", "description": "In charge of the entire UALA's static websites for Argentina, Colombia and Mexico, using Next Js and Tailwind with Vercel.", "company": "UALA" , "years":"2022"},
-        { "title": "Frontend developer", "description": "Developing website with VTEX IO that contains native components as much as customised ones according to the clients needs. As the most experienced frontend dev in the team, I am in charge of daily deployment, which gives me major responsabilites and everyday learnings.", "company": "GLAMIT", "years":"2021-2022" },
-                {
-                  "title": "Fullstack developer",
-                  "description": "Fullstack Acceleration internship developing websites in teams with SCRUM methodology for non profit organizations. using React JS and Express JS.",
-                  "company": "ALKEMY",
-                  "years": "2020-2020"
-                }
+        {
+          "title": "React Native Developer",
+          "description": "I'm currently working as a React Native Developer, leading the front-end development of Fini, a mobile app designed to help users find rental properties more easily. I built the entire app from scratch using React Native and styled it with Tailwind CSS. The app, now available on both iOS and Android, allows users to like or dislike properties listed by real estate agencies, creating a seamless and intuitive rental search experience. I'm proud to have contributed to launching a product that's now live on the App Store and Google Play.",
+          "company": "Fini",
+          "years": "2024"
+        },
+        {
+          "title": "Fullstack Developer",
+          "description": "Development of a scheduling platform for an international client, designed to book meeting rooms across various offices worldwide and manage event creation. As one of the main developers on the project, I worked with the T3 Stack (Next.js, Tailwind CSS, Drizzle ORM, and tRPC) to build the full CRUD flow—from defining and managing models for events, rooms, offices, and room-specific resources, to implementing secure user authentication and image storage with Azure. This project involved high responsibility and close collaboration with the product team to ensure a seamless and scalable solution.",
+          "company": "Minery Report",
+          "years": "2024"
+        },
+        {
+          "title": "Web developer",
+          "description": "Ongoing contributions across multiple projects within the OXEN/SESSION/OPTF ecosystem: Contributed to the Session desktop app (built with Electron.js), implementing various fixes and performance improvements. Managed weekly deployments via VPS and implemented fixes and new features across several OXEN/SESSION/OPTF websites, working primarily with Next.js. Led the full migration of the OPTF website from WordPress to a modern, performant Next.js stack. Developed a project that integrates smart contracts written in Solidity with a Next.js frontend, enabling interaction between blockchain logic and web applications.",
+          "company": "Oxen",
+          "years": "2022-2023"
+        },
+        {
+          "title": "Fullstack developer",
+          "description": "Project 1: Website with interactive menu, using React JS, Tailwind and Firebase. - Project 2: Website tech migration in each section, using React JS and Tailwind. Project 3: Website focused on professional coaches workbooks, using Vue Js and Express in backend together with MySql. Project 4: Ecommerce website for professional coaches profiles, using React js, Gatbsy and Tailwind in front and Express js, firebase for auth and mySql with postgreSql. Project 5: Coaching app based on tinder platform connecting clients with coaches, using React Native with Typescript with Redux for state handling and different implementations along the way such as WebRTC for videocalls, and Express JS with postgresSQL for the backend .",
+          "company": "ROUR DEV",
+          "years": "2021-2022"
+        },
+        {
+          "title": "Frontend developer",
+          "description": "My team and I were fully responsible for Ualá's static webpages. Some pages started without dynamic content, while others were built from the ground up using Contentful CMS with GraphQL, enabling the marketing team to easily manage and update copy. All webpages were developed using Next.js, deployed via Vercel, and styled with Tailwind CSS. We also integrated forms through Typeform and others connected directly to AWS DynamoDB.",
+          "company": "UALA",
+          "years": "2022"
+        },
+        {
+          "title": "Frontend developer",
+          "description": "Frontend development using VTEX IO for a major e-commerce platform, working with both native and custom components tailored to the client's needs. As the main frontend point of contact in the team for deployments, I face daily challenges that drive my continuous growth as a professional.",
+          "company": "GLAMIT",
+          "years": "2021-2022"
+        },
+        {
+          "title": "Fullstack developer",
+          "description": "Fullstack Acceleration internship developing websites in teams with SCRUM methodology for non profit organizations. using React JS and Express JS.",
+          "company": "ALKEMY",
+          "years": "2020-2020"
+        }
       ]
     }
   },
   "Portfolio": {
     "title": "my works",
     "portfolio": [
+      {
+        "title": "FINI",
+        "description": "Led the frontend development of Fini, a mobile app for rental property search. Built from scratch using React Native and Tailwind CSS, it lets users “like” or “dislike” listings. Now live on iOS and Android via App Store and Google Play."
+      },
       {
         "title": "OPTF",
         "description": "Working for OXEN, made the entire migration for the OPTF website originally made with wordpress to the Next, Tailwind and Contentful stack, still consuming blogposts from the wordpress API"
@@ -66,7 +102,8 @@
       {
         "title": "UALA Argentina",
         "description": "Working for UALA, made several changes in style and structure for the UALA website, and daily deployments with Vercel. Website made with the Next js, Tailwind, Framer Motion and Contentful stack."
-      }, {
+      },
+      {
         "title": "UALA Colombia",
         "description": "Working for UALA, made several changes in style and structure for the UALA  Colombia website, and daily deployments with Vercel. Website made with the Next js, Tailwind, Framer Motion and Contentful stack."
       },
@@ -132,7 +169,11 @@
       }
     ],
     "portfolioButton": "view demo",
-    "contact": { "title": "interested? ;)", "role": "website developer", "button": "hire me" }
+    "contact": {
+      "title": "interested? ;)",
+      "role": "website developer",
+      "button": "hire me"
+    }
   },
   "Contact": {
     "form": {
